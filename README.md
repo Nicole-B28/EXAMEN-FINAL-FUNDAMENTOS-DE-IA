@@ -2,7 +2,7 @@
 
 **Aplicación de consulta agrícola para agricultores**, con interfaz verde bosque. No es un informe académico: permite consultar el terreno, conocer la precipitación prevista y recibir precauciones antes de sembrar.
 
-## Qué corrige frente a la versión inicial
+## Qué se fue mejorando
 
 - Antes solo se calculaban rachas secas. Ahora se evalúan **por separado** poca lluvia, exceso de precipitación y frío.
 - Una semana de 214 mm ya **no** aparece como «lluvias favorables»; genera advertencia de drenaje.
@@ -27,7 +27,7 @@ Si PowerShell bloquea la activación de scripts, **no es necesario activar** el 
 
 Abrir en navegador la **Local URL** que muestre Streamlit, por ejemplo `http://localhost:8501` (el puerto puede variar si hay otras apps ejecutándose).
 
-## Comprobar con el profesor los valores del API
+## Comprobar los valores del API
 
 Desde una segunda terminal, dentro del proyecto:
 
